@@ -1,0 +1,11 @@
+dependencies {
+    compile "org.springframework:spring-jdbc:$springVersion"
+    compile "org.springframework:spring-context:$springVersion"
+
+    testCompile "org.springframework.boot:spring-boot-starter:$springBootVersion"
+    testCompile "org.springframework:spring-test:$springVersion"
+    testCompile "com.zaxxer:HikariCP:$hikariVersion"
+    testCompile "org.postgresql:postgresql:$postgresVersion"
+
+    testCompile "junit:junit:4.12"
+}

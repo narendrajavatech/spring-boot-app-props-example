@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/app_props_example_dev
+    username: dam5s
+    driver-class-name: org.postgresql.Driver
